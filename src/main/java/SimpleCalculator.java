@@ -26,6 +26,10 @@ public class SimpleCalculator {
   
 			result +=x;
 	}
+	public void dec(int x) {
+		  
+		result -=x;
+}
 	
 	public int getResult() {
 		return result;
